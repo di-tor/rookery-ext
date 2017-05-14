@@ -1,0 +1,19 @@
+{
+    "name": "diolektor/rookery-ext",
+    "description": "Simple extension for Rookery",
+    "type": "rookery-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasily Komrakov",
+            "email": "diolektor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "diolektor/rookery": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}

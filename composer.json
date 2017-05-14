@@ -9,6 +9,11 @@
             "email": "diolektor@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "SimpleRookeryExt\\": "src/"
+        }
+    },
     "require": {
         "php": "^7.1",
         "diolektor/rookery": "dev-master"

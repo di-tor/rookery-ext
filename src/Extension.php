@@ -4,5 +4,13 @@ namespace SimpleRookeryExt;
 
 class Extension
 {
-    public $version = "0.0.0";
+    private $version = '0.0.0';
+
+    /**
+     * @return string
+     */
+    public function getVersion() : string
+    {
+        return $this->version;
+    }
 }
